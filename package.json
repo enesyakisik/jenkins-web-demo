@@ -1,0 +1,11 @@
+{
+  "name": "jenkins-web-demo",
+  "version": "1.0.0",
+  "description": "Jenkins Build/Test/Deploy demo web app",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r src/* dist/",
+    "test": "node tests/math.test.js"
+  },
+  "author": "Enes",
+  "license": "MIT"
+}

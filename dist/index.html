@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenkins Demo Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Jenkins Build / Test / Deploy Demo</h1>
+
+    <section class="card">
+        <h2>Hesap Makinesi</h2>
+        <div class="calc-row">
+            <input id="num1" type="number" placeholder="Sayı 1">
+            <input id="num2" type="number" placeholder="Sayı 2">
+        </div>
+        <div class="btn-row">
+            <button onclick="onAdd()">Topla</button>
+            <button onclick="onMultiply()">Çarp</button>
+        </div>
+        <p id="calc-result">Sonuç burada görünecek</p>
+    </section>
+
+    <section class="card">
+        <h2>Yapılacaklar Listesi (TODO)</h2>
+        <div class="todo-row">
+            <input id="todo-input" type="text" placeholder="Görev ekle">
+            <button onclick="onAddTodo()">Ekle</button>
+        </div>
+        <ul id="todo-list"></ul>
+    </section>
+
+    <footer>
+        <p>Deploy eden: Jenkins Pipeline (Enes)</p>
+    </footer>
+</div>
+
+<script src="math.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
